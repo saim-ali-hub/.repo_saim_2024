@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>RHCSA Exam – Task List</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #d6eaff;   /* Light blue background */
+        padding: 20px;
+        line-height: 1.6;
+        color: #003399;        /* Blue text */
+    }
+    h1 {
+        text-align:center;
+        color:#003399;         /* Blue heading */
+    }
+    .task {
+        background: #ffffff;   /* Keep task boxes white for clarity */
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        box-shadow: 0 0 4px #99badd; /* Soft blue shadow */
+        color: #003399;        /* Blue text inside */
+    }
+    .task-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #003399;        /* Blue task titles */
+    }
+    .options {
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: #003399;        /* Blue text for options */
+    }
+    .options label {
+        margin-right: 20px;
+    }
+    ol, ul {
+        margin-left: 25px;
+    }
+</style>
+</head>
+
+<body>
+
+<h1>RHCSA 2025 – Exam Tasks</h1>
+
+<!-- TEMPLATE FOR EACH QUESTION -->
+<!-- Copy this block when adding new tasks:
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="qX"> Done</label>
+    <label><input type="radio" name="qX"> Revisit</label>
+  </div>
+  <div class="task-title">X. Your task title here</div>
+  Task description...
+</div>
+-->
+
+<!-- TASKS START HERE -->
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q1"> Done</label>
+    <label><input type="radio" name="q1"> Revisit</label>
+  </div>
+  <div class="task-title">1. Recover root password</div>
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q2"> Done</label>
+    <label><input type="radio" name="q2"> Revisit</label>
+  </div>
+  <div class="task-title">2. Assign Static IP</div>
+  Set the following on <b>clone-client</b> if your network is different please use your own subnet but set host 130:  
+  <ul>
+    <li>IP: 192.168.100.130</li>
+    <li>Netmask: 255.255.255.0</li>
+    <li>Gateway: 192.168.100.1</li>
+    <li>NameServer: 192.168.100.1</li>
+    <li>Hostname: servera.example.com</li>
+  </ul>
+</div>
+</body>
+</html>
