@@ -44,7 +44,7 @@
 
 <body>
 
-<h1>RHCSA 2025 – Exam Tasks</h1>
+<h1>RHCSA-2024-BATCH – Exam Tasks</h1>
 
 <!-- TEMPLATE FOR EACH QUESTION -->
 <!-- Copy this block when adding new tasks:
@@ -65,15 +65,7 @@
     <label><input type="radio" name="q1"> Done</label>
     <label><input type="radio" name="q1"> Revisit</label>
   </div>
-  <div class="task-title">1. Recover root password</div>
-</div>
-
-<div class="task">
-  <div class="options">
-    <label><input type="radio" name="q2"> Done</label>
-    <label><input type="radio" name="q2"> Revisit</label>
-  </div>
-  <div class="task-title">2. Assign Static IP</div>
+  <div class="task-title">1. Assign Static IP</div>
   Set the following on <b>clone-client</b> if your network is different please use your own subnet but set host 130:  
   <ul>
     <li>IP: 192.168.100.130</li>
@@ -83,5 +75,41 @@
     <li>Hostname: servera.example.com</li>
   </ul>
 </div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q2"> Done</label>
+    <label><input type="radio" name="q2"> Revisit</label>
+  </div>
+  <div class="task-title">2. Configure YUM repositories</div>
+  Repository URLs are listed on the Exam Instruction page.
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q3"> Done</label>
+    <label><input type="radio" name="q3"> Revisit</label>
+  </div>
+  <div class="task-title">3. Recover root password</div>
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q4"> Done</label>
+    <label><input type="radio" name="q4"> Revisit</label>
+  </div>
+  <div class="task-title">4. Configure chrony</div>
+  Configure chrony such that time is synchronized with <b>"clone-server"</b> i.e., NTP server.
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q5"> Done</label>
+    <label><input type="radio" name="q5"> Revisit</label>
+  </div>
+  <div class="task-title">5. Configure autofs</div>
+  Create <b>user1</b> with uid <b>4001</b>, using <b>/rhome</b> as a base directory but do not creat home directory. Make sure the share <b>clone-server-or-ip:/remoteusers/user1</b> should be mounted on <b>/rhome/user1</b>.
+</div>
+
 </body>
 </html>
