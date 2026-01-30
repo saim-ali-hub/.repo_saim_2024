@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RHCSA 2025 Exam Instructions</title>
+    <title>RHCSA-2024-BATCH Exam Instructions</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -43,12 +43,12 @@
 
     <h2>On clone-Server:</h2>
     <ul>
-        <li>Create a directory <strong>RHCSA-2025</strong> on clone-server.</li>
-        <li>CD into <strong>RHCSA-2025</strong> and run the following commands:</li>
+        <li>Create a directory <strong>RHCSA-2024</strong> on clone-server.</li>
+        <li>CD into <strong>RHCSA-2024</strong> and run the following commands:</li>
         <pre>
-cd RHCSA-2025
-git clone https://github.com/saim-ali-hub/batch-2025-server.git
-cd batch-2025-server
+cd RHCSA-2024
+git clone https://github.com/saim-ali-hub/batch-2024-server.git
+cd batch-2024-server
 ./server-config.sh
         </pre>
         <li>Open a browser and go to: <strong>&lt;server’s ip-address&gt;/.saim_repo</strong>. Open each file in a new window.</li>
@@ -57,14 +57,14 @@ cd batch-2025-server
 
     <h2>On clone-Client:</h2>
     <ul>
-        <li>Create a directory <strong>RHCSA-2025</strong> on clone-client.</li>
-        <li>CD into <strong>RHCSA-2025</strong> and run the following commands:</li>
+        <li>Create a directory <strong>RHCSA-2024</strong> on clone-client.</li>
+        <li>CD into <strong>RHCSA-2024</strong> and run the following commands:</li>
         <pre>
-cd RHCSA-2025
-git clone https://github.com/saim-ali-hub/batch-2025-client.git
-cd batch-2025-client
+cd RHCSA-2024
+git clone https://github.com/saim-ali-hub/batch-2024-client.git
+cd batch-2024-client
 ./clone-client-mess-up            (For Client machine configuraton)
-./RHCSA-evaluator-2025            (For validation of tasks)
+./RHCSA-evaluator-2024            (For validation of tasks)
         </pre>
     </ul>
 
