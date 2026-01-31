@@ -111,5 +111,28 @@
   Create <b>user1</b> with uid <b>4001</b>, using <b>/rhome</b> as a base directory but do not creat home directory. Make sure the share <b>clone-server-or-ip:/remoteusers/user1</b> should be mounted on <b>/rhome/user1</b>.
 </div>
 
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q9"> Done</label>
+    <label><input type="radio" name="q9"> Revisit</label>
+  </div>
+  <div class="task-title">9. Troubleshoot webserver</div>
+  If successfully running, the webserver should show <b>"I am enjoying RHCSA preparation"</b> on port <b>82</b> without changing any configuration.
+</div>
+
+<div class="task">
+  <div class="options">
+    <label><input type="radio" name="q10"> Done</label>
+    <label><input type="radio" name="q10"> Revisit</label>
+  </div>
+  <div class="task-title">10. Collaboration Directory</div>
+  <ul>
+    <li>Create directory <b>/project</b></li>
+    <li>Full access to user and group, no access for others.</li>
+    <li>New files inherit group ownership <b>developers</b>.</li>
+    <li>Users cannot delete other user files.</li>
+  </ul>
+</div>
+
 </body>
 </html>
